@@ -9,43 +9,55 @@ _Some company names have a ⚠️️️ icon next to them. This icon means we do
 much information about this company yet and we would love a contribution! See
 each individual company profile for details._
 
+## syncing forked repo with original
+```
+git remote add upstream https://github.com/remoteintech/remote-jobs
+git fetch upstream
+git checkout master
+git rebase upstream/master
+```
+
+## acronyms
+- dc === don't care
+- fj === found jobs on their site
+
 ## Companies
 
-Name | Website | Region
------------- | ------- | -------
-[&yet](/company-profiles/and-yet.md) | https://andyet.com | Worldwide
-[10up](/company-profiles/10up.md) | https://10up.com/ | Worldwide
-[15Five](/company-profiles/15five.md) | https://www.15five.com | Europe, Americas
-[17hats](/company-profiles/17hats.md) | https://www.17hats.com/ | Worldwide
-[18F](/company-profiles/18f.md) | https://18f.gsa.gov/ | USA
-[1Password](/company-profiles/1password.md) | https://www.1password.com | Worldwide
-[abiturma](/company-profiles/abiturma.md) | https://www.abiturma.de/ | Germany
-[Ably](/company-profiles/ably.md) | https://www.ably.io/ | Europe
-[Acquia](/company-profiles/acquia.md) | https://www.acquia.com/ | Worldwide
-[Ad Hoc](/company-profiles/ad-hoc.md) | https://www.adhocteam.us/ | USA
-[Adzuna](/company-profiles/adzuna.md) | https://www.adzuna.co.uk/ | Worldwide
-[AE Studio](/company-profiles/aestudio.md) | https://ae.studio/ | USA, BR
-[Aerolab](/company-profiles/aerolab.md) | https://aerolab.co/ | Latin America
-[AgFlow](/company-profiles/agflow.md) | http://www.agflow.com | Europe
-[Aha!](/company-profiles/aha.md) | http://www.aha.io | Worldwide
-[Algorithmia](/company-profiles/algorithmia.md) | https://algorithmia.com/ | the USA or Canada
-[ALICE](/company-profiles/alice.md) | https://aliceplatform.com | Worldwide
-[Alight Solutions](/company-profiles/alight-solutions.md) | http://alight.com | Worldwide
-[Alley](/company-profiles/alley.md) | http://alley.co | USA, Canada, Western Europe
-[allyDVM](/company-profiles/allydvm.md) | http://www.allydvm.com/ | USA
-[AlphaSights](/company-profiles/alphasights.md) | https://engineering.alphasights.com | USA, UK, (EST, GMT)
-[Anexus](/company-profiles/anexus.md) | http://www.anexusit.com/ | Latin America
-[Anomali](/company-profiles/anomali.md) | https://www.anomali.com/company/careers | USA, UK, Singapore
-[apartment therapy](/company-profiles/apartment-therapy.md) | http://www.apartmenttherapy.com/ | USA
-[Appstractor Corporation](/company-profiles/appstractor.md) | https://www.appstractor.com/ | USA, UK, Israel
-[ARK](/company-profiles/ark.md) | https://www.ark.io/careers | Worldwide
-[Arkency](/company-profiles/arkency.md) | http://arkency.com/ | Worldwide
-[Art & Logic](/company-profiles/art-and-logic.md) | https://artandlogic.com | US and Canada
-[Artefactual Systems](/company-profiles/artefactual.md) | https://www.artefactual.com | UTC-8 to UTC+2
-[Articulate](/company-profiles/articulate.md) | https://www.articulate.com | Worldwide
-[Astronomer](/company-profiles/astronomer.md) | https://www.astronomer.io/ | USA
-[Audiense](/company-profiles/audiense.md) ⚠️️ | http://www.audiense.com/ | Worldwide
-[Aula Education](/company-profiles/aula.md) | https://aula.education/ | Worldwide
+Name | Website | Region | STATUS
+------------ | ------- | ------- | ------- | 
+[&yet](/company-profiles/and-yet.md) | https://andyet.com | Worldwide | dc 
+[10up](/company-profiles/10up.md) | https://10up.com/ | Worldwide | fj
+[15Five](/company-profiles/15five.md) | https://www.15five.com | Europe, Americas | dc
+[17hats](/company-profiles/17hats.md) | https://www.17hats.com/ | Worldwide | dc
+[18F](/company-profiles/18f.md) | https://18f.gsa.gov/ | USA | dc
+[1Password](/company-profiles/1password.md) | https://www.1password.com | Worldwide | fj
+[abiturma](/company-profiles/abiturma.md) | https://www.abiturma.de/ | Germany | dc
+[Ably](/company-profiles/ably.md) | https://www.ably.io/ | Europe | dc
+[Acquia](/company-profiles/acquia.md) | https://www.acquia.com/ | Worldwide| dc
+[Ad Hoc](/company-profiles/ad-hoc.md) | https://www.adhocteam.us/ | USA | fj
+[Adzuna](/company-profiles/adzuna.md) | https://www.adzuna.co.uk/ | Worldwide | dc
+[AE Studio](/company-profiles/aestudio.md) | https://ae.studio/ | USA, BR | dc
+[Aerolab](/company-profiles/aerolab.md) | https://aerolab.co/ | Latin America | dc
+[AgFlow](/company-profiles/agflow.md) | http://www.agflow.com | Europe | dc
+[Aha!](/company-profiles/aha.md) | http://www.aha.io | Worldwide | fj
+[Algorithmia](/company-profiles/algorithmia.md) | https://algorithmia.com/ | the USA or Canada | dc
+[ALICE](/company-profiles/alice.md) | https://aliceplatform.com | Worldwide | dc
+[Alight Solutions](/company-profiles/alight-solutions.md) | http://alight.com | Worldwide | dc
+[Alley](/company-profiles/alley.md) | http://alley.co | USA, Canada, Western Europe | dc
+[allyDVM](/company-profiles/allydvm.md) | http://www.allydvm.com/ | USA | dc
+[AlphaSights](/company-profiles/alphasights.md) | https://engineering.alphasights.com | USA, UK, (EST, GMT) | dc
+[Anexus](/company-profiles/anexus.md) | http://www.anexusit.com/ | Latin America | dc
+[Anomali](/company-profiles/anomali.md) | https://www.anomali.com/company/careers | USA, UK, Singapore | dc
+[apartment therapy](/company-profiles/apartment-therapy.md) | http://www.apartmenttherapy.com/ | USA | fj
+[Appstractor Corporation](/company-profiles/appstractor.md) | https://www.appstractor.com/ | USA, UK, Israel | dc
+[ARK](/company-profiles/ark.md) | https://www.ark.io/careers | Worldwide | dc
+[Arkency](/company-profiles/arkency.md) | http://arkency.com/ | Worldwide | dc
+[Art & Logic](/company-profiles/art-and-logic.md) | https://artandlogic.com | US and Canada | dc
+[Artefactual Systems](/company-profiles/artefactual.md) | https://www.artefactual.com | UTC-8 to UTC+2 | dc
+[Articulate](/company-profiles/articulate.md) | https://www.articulate.com | Worldwide | fj
+[Astronomer](/company-profiles/astronomer.md) | https://www.astronomer.io/ | USA | dc
+[Audiense](/company-profiles/audiense.md) ⚠️️ | http://www.audiense.com/ | Worldwide | dc
+[Aula Education](/company-profiles/aula.md) | https://aula.education/ | Worldwide | dc
 [Auth0](/company-profiles/auth0.md) | https://auth0.com/ | Worldwide
 [Automattic](/company-profiles/automattic.md) | https://automattic.com/ | Worldwide
 [Axelerant](/company-profiles/axelerant.md) | https://axelerant.com/ | Worldwide
